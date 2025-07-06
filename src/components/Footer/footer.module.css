@@ -1,0 +1,20 @@
+footer {
+    background-color: var(--secondary-background-color);
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-family: var(--secondary-font);
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+a {
+    color: var(--link-text-color);
+    text-decoration: none;
+    font-family: var(--primary-font);
+}

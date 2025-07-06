@@ -1,0 +1,25 @@
+.hero{
+    background-color: var(--primary-background-color);
+    padding: 20px;
+    text-align: center;
+}
+.hero h1 {
+    font-family: var(--primary-font);
+    font-size: 2.5rem;
+    color: var(--primary-text-color);
+    margin-bottom: 10px;
+}
+
+.curriculum-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.carrousel-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,14 +1,24 @@
+---
+import MainCss from '../assets/css/index.css';
+import ResetCss from '../assets/css/reset.css';
+import Footer from '../components/Footer/index';
+import Header from '../components/Header/index';
+---
 <!doctype html>
-<html lang="en">
+<html lang="pt">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<link rel="stylesheet" href={ResetCss} />
+		<link rel="stylesheet" href={MainCss} />
+		<title>Portifólio - Erick Azevedo</title>
 	</head>
 	<body>
+		<Header client:load/>
 		<slot />
+		<Footer client:load/>
 	</body>
 </html>
 

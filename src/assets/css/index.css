@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* PRIMARY COLORS */
+    --primary-color: #4a90e2;
+    --primary-color-light: #6ab7f9;
+    --primary-color-dark: #3b7ac9;
+    /* SECONDARY COLORS */
+    --secondary-color: #f5a623;
+    --secondary-color-light: #f8c66a;
+    --secondary-color-dark: #d98f1e;
+    /* BACKGROUND COLORS */
+    --primary-background-color: #121e28;
+    --secondary-background-color: #111f28;
+
+    /* TEXT COLORS */
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #b0b0b0;
+    --link-text-color: #4a90e2;
+    --link-text-color-hover: #6ab7f9;
+
+    /* TEXT FONTS */
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+
