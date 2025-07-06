@@ -9,13 +9,16 @@ export default function Header() {
 						<a href="/">Home</a>
 					</li>
 					<li>
-						<a href="/about">About</a>
+						<a href="#about">About</a>
 					</li>
 					<li>
-						<a href="/contact">Projetos</a>
+						<a href="#contact">Projetos</a>
 					</li>
 					<li>
-						<a href="/contact">Contact</a>
+						<a href="#contact">Contact</a>
+					</li>
+					<li>
+						<a href="/blog">Blog</a>
 					</li>
 				</ul>
 			</nav>

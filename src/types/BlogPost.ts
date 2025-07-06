@@ -1,5 +1,7 @@
 export type BlogPost = {
-	title: string;
-	description: string;
-	pubDate: string;
+	frontmatter: {
+		title: string;
+		description: string;
+		pubDate: string;
+	};
 };

@@ -2,7 +2,7 @@
 import type { BlogPost } from "../types/BlogPost";
 
 const matches = import.meta.glob('../blog/*.mdx', { eager: true });
-const posts = Object.values(matches) as BlogPost[];
+const posts = Object.values(matches) as any as BlogPost[];
 ---
 
-{posts.map(post => <p>{post.title}</p>)}
+{posts.map(post => <p>{post.frontmatter.title}</p>)}

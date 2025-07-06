@@ -1,3 +1,4 @@
+import { BriefcaseBusiness, Scroll } from 'lucide-react';
 import './about.module.css'
 export default function About() {
     return <main>
@@ -53,6 +54,31 @@ function Carrousel() {
 				<li>PHP</li>
 				<li>Astro</li>
 			</ul>
+        </div>
+    );
+}
+
+function Carreer() {
+    return (
+        <div className='career-container'>
+            <h2>Minha carreira</h2>
+            <p>
+                Comecei minha carreira como desenvolvedor web, criando sites e aplicações para pequenas empresas.
+                Com o tempo, fui aprimorando minhas habilidades e hoje trabalho em projetos mais complexos, utilizando
+                tecnologias modernas e práticas ágeis.
+            </p>
+        </div>
+    );
+}
+
+function CarreerItem({title, description, startDate, endDate} : {title: string, description: string, startDate: string, endDate: string}) {
+    return (
+        <div className='career-item'>
+            <BriefcaseBusiness />
+            <Scroll />
+            <h3>{title}</h3>
+            <p>{description}</p>
+            <p>{startDate} - {endDate}</p>
         </div>
     );
 }
